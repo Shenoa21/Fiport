@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:wght@200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+  
+  }
+  .encabezado {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+
+  nav img {
+    width: 30px;
+  } 
+  
+  section {
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffe7e7;
+    color: blueviolet;
+    text-align: center;
+  }
+  
+  .project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .project-images img {
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .contenedor {
+    display: flex;
+   justify-content: end;
+    align-items: center;
+  }
+
+  .contenedor{
+    position: absolute;
+    z-index: 1;
+  }
+ 
+  @media (max-width: 768px) {
+    .skills, .projects {
+      flex-direction: column;
+    }
+  }
+</style>
+<body>
+   <section class="contenedor">
+  
+        </a><a href="index.html"> <img src="inicio.png"></a>
+        <a href="proyecto.html"> <img src="pro.png"></a>
+        <a href="contacto.html"> <img src="contact.webp"></a>
+    
+    </section>
+    <header class="encabezado">
+        <h1>Proyectos</h1>
+    </header>
+    <section>
+       
+        <table >
+            <thead>
+                <tr>
+                    <th>Nombre del Proyecto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td><h4>Proyecto 1: Sistema de Gestión de Tareas</h4></td>
+                    <td>
+                        <p>Desarrollé un sistema para la gestión de tareas que permite a los usuarios organizar sus actividades de manera eficiente.</p>
+                    </td>
+                </tr>
+                <tr >
+                    <td><h4>Proyecto 2: Página Web Personal </h4></td>
+                    <td>
+                        <p>Creé una página web personal para mostrar mis habilidades y proyectos, utilizando HTML5 y buenas prácticas de accesibilidad.</p>
+                    </td>
+                </tr>
+                <tr >
+                    <td><h4>Proyecto 3: Aplicación educativa e interactiva para niños de 1 a 5 años</h4></td>
+                    <td>
+                        <p>Creé una aplicación interactiva para niños, que incluye un temporizador que alerta a los padres cuando el tiempo de uso ha caducado.</p>
+                    </td>
+                </tr>
+                <tr >
+                    <td><h4>Proyecto 4: Calculadora Básica (BAISICAL)</h4></td>
+                    <td>
+                        <p>Esta calculadora fue diseñada para la materia de lógica, permitiendo conversiones binarias, octales y hexadecimales.</p>
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <h4>Proyecto 5: 
+                            <a href="https://www.youtube.com/watch?v=U9F3rKAjDBE&t=121s" target="_blank">
+                                Prototipos de carros eléctricos con materiales reciclados
+                            </a>
+                        </h4>
+                    </td>
+                    <td>
+                        <p>Estos prototipos fueron creados con materiales reciclados, baterías y motores, para demostrar la creatividad y apoyar el medio ambiente.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <section>
+            <img src="tm-1.png" alt="Proyecto 1">
+            <img src="perso.png" alt="Proyecto 2">
+            <img src="edpt.png" alt="Proyecto 3">
+            <img src="basical.png" alt="Proyecto 4">
+            <img src="coche_8.jpg " alt="Proyecto 5">
+        </section>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Ámbar García R.</p>
+    </footer>
+</body>
+</html>
